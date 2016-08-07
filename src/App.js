@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import marked from 'marked';
 
+import './App.scss';
 import Markdown  from './markdown';
 import Markup from './markup'
 
