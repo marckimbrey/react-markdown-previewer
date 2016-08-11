@@ -29,6 +29,11 @@ export default class App extends Component {
       <div className="app">
         <h1>Markdown previewer</h1>
         <h4>A playground for testing out github flavoured markdown</h4>
+        <p>Code for this project:  
+          <a href="https://github.com/marckimbrey/react-markdown-previewer">
+            https://github.com/marckimbrey/react-markdown-previewer
+          </a>
+        </p>
         <Markdown
           update={this.update.bind(this)}
           value={this.state.txt}
